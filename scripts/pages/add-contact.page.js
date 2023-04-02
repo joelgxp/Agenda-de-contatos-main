@@ -106,7 +106,7 @@ export const AddContact = () => {
             </select>
             <input name="numero-3" placeholder="Insira o número aqui..." type="phone" />
         </fieldset>
-
+        </br>
         <button>Cadastrar</button>
     `
     eventos()

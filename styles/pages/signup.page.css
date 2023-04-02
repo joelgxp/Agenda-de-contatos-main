@@ -27,7 +27,11 @@
        box-sizing: border-box;
    }
 
+   #p-signup a {
+    font-size: large;
+}
+
    button {
-    background-color: darkslategrey;
-    font-size: x-large;
+    background-color: rgb(114, 116, 116);
+    font-size: large;
    }

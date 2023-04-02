@@ -18,13 +18,14 @@
 #div-card-contact-links {
     display: flex;
     align-items: center;
-    justify-content: space-between;    
+    justify-content: space-between;
 }
 
 
 #div-card-contact, a {
     font-size: 14px;
     color: rgb(255, 255, 255);
+    margin-left: 20px;    
 }
 
 
