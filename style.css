@@ -3,6 +3,7 @@
 @import url(./styles/pages/contact.page.css);
 @import url(./styles/components/header.component.css);
 @import url(./styles/pages/card-contact.component.css);
+@import url(./styles/pages/add-contact.css);
 
 body {
     margin: 0;
