@@ -19,7 +19,7 @@ export const Header = () => {
         <span>${usuario?.nome}</span>
         <a href="/#login">Sair</a>
     `
-    
+
     eventos()
     return header
 }
