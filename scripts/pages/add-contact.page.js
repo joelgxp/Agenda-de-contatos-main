@@ -83,28 +83,35 @@ export const AddContact = () => {
             <input placeholder="País" name="pais" type="text" />
         </fieldset>
             
-        <fieldset>
+        <fieldset id="fieldset-telefones">
             <legend>Telefones</legend>
+            <div>
+            <input name="numero-1" placeholder="Insira o número aqui..." type="phone" />
             <select name="tipo-telefone-1">
                 <option value="casa">Casa</option>
                 <option value="trabalho">Trabalho</option>
                 <option value="celular">Celular</option>
             </select>
-            <input name="numero-1" placeholder="Insira o número aqui..." type="phone" />
-
+            </div
+            
+            <div>
+            <input name="numero-2" placeholder="Insira o número aqui..." type="phone" />
             <select name="tipo-telefone-2">
                 <option value="casa">Casa</option>
                 <option value="trabalho">Trabalho</option>
                 <option value="celular">Celular</option>
             </select>            
-            <input name="numero-2" placeholder="Insira o número aqui..." type="phone" />
+            </div>
 
+            <div>
+            <input name="numero-3" placeholder="Insira o número aqui..." type="phone" />
             <select name="tipo-telefone-3">
                 <option value="casa">Casa</option>
                 <option value="trabalho">Trabalho</option>
                 <option value="celular">Celular</option>
             </select>
-            <input name="numero-3" placeholder="Insira o número aqui..." type="phone" />
+            </div>
+
         </fieldset>
         </br>
         <button>Cadastrar</button>

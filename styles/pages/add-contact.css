@@ -1,0 +1,18 @@
+#p-add-contact a {
+    font-size: large;
+}
+
+#p-add-contact input, textarea {
+    font-size: medium;
+    margin-bottom: 25px;
+}
+
+#fieldset-telefones {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+legend {
+    font-size: large;
+}
