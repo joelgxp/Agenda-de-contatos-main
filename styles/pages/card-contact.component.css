@@ -1,0 +1,30 @@
+#section {
+    background-color: #242c3b;
+    height: 44px;
+    border-top: 1px solid #5f6e82;
+    padding: 10px;
+}
+
+#section:hover {
+    background-color: #384459;
+}
+
+#div-card-contact-nome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#div-card-contact-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+
+#div-card-contact, a {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+

@@ -1,0 +1,28 @@
+#p-login {
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    max-width: 320px;
+    min-height: 100vh;
+    margin: 0 auto;
+    
+   }
+   
+   #p-login fieldset {
+       padding-top: 10px;
+       padding-bottom: 10px;
+       border: 0;
+   }
+   
+   #p-login input[type='checkbox'] {
+       margin-left: 0;
+       margin-right: 10px;
+   }
+   
+   #p-login input:not(input[type='checkbox']),
+   #p-login button {
+       display: block;
+       width: 100%;
+       margin: 10px 0;
+       box-sizing: border-box;
+   }
